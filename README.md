@@ -1,6 +1,6 @@
-# Pattern Typography (WIP)
+# Pattern Typography
 
-Shared typography for the NYC Opportunity UI Patterns Framework. Currently a work–in-progress. Refer to [architecture diagram for roadmap and planning](https://www.figma.com/file/jpvfMN4UETOvjQG9EJoH4n/Patterns-Architecture?node-id=0%3A1). This repository relies on the configuration files of the [Patterns Elements](https://github.com/NYCOpportunity/pattern-elements) module.
+Shared typography for the NYC Opportunity UI Patterns Framework. This repository relies on the configuration files of the [Patterns Elements](https://github.com/NYCOpportunity/pattern-elements) module.
 
 ## Installation
 

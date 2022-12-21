@@ -14,7 +14,7 @@ html {
     direction: rtl;
   }
 
-  @media screen and (min-width: media.get('small')) {
+  @include media.screen-and-min-width('small') {
     font-size: var(--nyco-typography-mobile);
   }
 
@@ -94,9 +94,13 @@ blockquote, .blockquote {
   }
 
   footer {
-    font-size: 65%;
+    @include typography.set('p');
+
     font-weight: normal;
-    padding-left: calc(var(--nyco-grid) * 4);
+
+    @include media.screen-and-min-width('tablet') {
+      padding-inline-start: calc(var(--nyco-grid) * 9);
+    }
   }
 
   cite {

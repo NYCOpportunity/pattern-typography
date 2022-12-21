@@ -1,10 +1,10 @@
-Open license web fonts are used within these patterns and are assigned tokens `primary` and `secondary`.
+{{ this.package.nice }} uses the open license web font <a target="_blank" rel="noopener nofollow" href="https://public-sans.digital.gov/">Public Sans</a>, created and provided by the <abbr title="The U.S. Web Design System">USWDS</abbr> team. It is imported via <a target="_blank" rel="noopener nofollow" href="https://fonts.google.com/specimen/Public+Sans">Google Fonts</a>.
 
-Token       | Font&nbsp;Family | Description
-------------|------------------|-
-`Primary`   | Montserrat       | Designated for headings and some user interface typography. See [Google Font Specimen](https://fonts.google.com/specimen/Montserrat) for details.
-`Secondary` | Lato             | Designated for buttons and body copy (lists/paragraphs). See [Google Font Specimen](https://fonts.google.com/specimen/Lato) for details.
+---
 
-##### Tailwindcss
+There are two token slots available for two different font faces, `primary` and `secondary`. However, having a different font for the secondary token is optional.
 
-Font families, weights, and styles can be assigned using [Tailwindcss](tailwindcss) utilities as well.
+Token     | Font&nbsp;Family                   | Description
+----------|------------------------------------|-
+Primary   | {{ this.tokens.fontFace-primary }} | Designated for headings and some user interface typography.
+Secondary | {{ this.tokens.fontFace-primary }} | Designated for buttons and body copy (lists/paragraphs).

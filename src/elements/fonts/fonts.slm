@@ -1,5 +1,16 @@
 / Fonts
 
-div
-  p class='font-primary' Primary Font (Montserrat)
-  p class='font-secondary' Secondary Font (Lato)
+div class='grid gap-3 tablet:grid-cols-2'
+  div class='material p-3'
+    p
+      b Primary Font
+
+    p class='h3 font-normal'
+      = this.tokens['fontFace-primary']
+
+  div class='material p-3'
+    p
+      b Secondary Font
+
+    p class='h3 font-normal'
+      = this.tokens['fontFace-primary']

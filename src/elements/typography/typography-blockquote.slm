@@ -1,2 +1,12 @@
-blockquote class='blockquote'
-  | Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+blockquote
+  span aria-hidden='true' class='blockquote__mark' —
+
+  p The Health Corps connects NYCHA residents to training and work experience.
+
+  footer
+    cite
+      a class='link-icon' target='_blank' rel='noopener' href='https://working.nyc.gov/programs/nycha-health-corps/'
+        | NYCHA Health Corps, Working NYC
+
+        svg class='icon-ui rtl:flip' aria-hidden='true'
+          use href='#lucide-external-link'

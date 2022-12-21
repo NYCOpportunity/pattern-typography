@@ -1,0 +1,24 @@
+div class='grid gap-3 tablet:grid-cols-2'
+  div class='material p-3'
+    p
+      b Desktop screen size (${this.tokens.screen.desktop}),  ${this.tokens.typography.desktop} base font size
+
+    p style='font-size: ${this.tokens.typography.desktop}' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  div class='material p-3'
+    p
+      b Tablet screen size (${this.tokens.screen.tablet}),  ${this.tokens.typography.tablet} base font size
+
+    p style='font-size: ${this.tokens.typography.tablet}' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  div class='material p-3'
+    p
+      b Mobile screen size (${this.tokens.screen.mobile}), ${this.tokens.typography.mobile} base font size
+
+    p style='font-size: ${this.tokens.typography.mobile}' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  div class='material p-3'
+    p
+      b Small screen size (${this.tokens.screen.small}), ${this.tokens.typography.small} base font size
+
+    p style='font-size: ${this.tokens.typography.small}' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

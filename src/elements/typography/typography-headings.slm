@@ -1,0 +1,36 @@
+div class='grid gap-3 tablet:grid-cols-2'
+  div class='material p-3'
+    p
+      b Heading level 1, <code>&lt;h1&gt;</code> or <code>.h1</code>
+
+    h1 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+
+  div class='material p-3'
+    p
+      b Heading level 2, <code>&lt;h2&gt;</code> or <code>.h2</code>
+
+    h2 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+
+  div class='material p-3'
+    p
+      b Heading level 3, <code>&lt;h3&gt;</code> or <code>.h3</code>
+
+    h3 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+
+  div class='material p-3'
+    p
+      b Heading level 4, <code>&lt;h4&gt;</code> or <code>.h4</code>
+
+    h4 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+
+  div class='material p-3'
+    p
+      b Heading level 5, <code>&lt;h5&gt;</code> or <code>.h5</code>
+
+    h5 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
+
+  div class='material p-3'
+    p
+      b Heading level 6, <code>&lt;h6&gt;</code> or <code>.h6</code>
+
+    h6 Find help in NYC with food, money, housing, work and more on ACCESS NYC.
