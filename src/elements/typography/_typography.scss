@@ -14,17 +14,18 @@ html {
     direction: rtl;
   }
 
-  @include media.screen-and-min-width('small') {
-    font-size: var(--nyco-typography-mobile);
-  }
+  // Have root font size be 16px for all screens
+  // @include media.screen-and-min-width('small') {
+  //   font-size: var(--nyco-typography-mobile);
+  // }
 
-  @include media.screen-and-min-width('tablet') {
-    font-size: var(--nyco-typography-tablet);
-  }
+  // @include media.screen-and-min-width('tablet') {
+  //   font-size: var(--nyco-typography-tablet);
+  // }
 
-  @include media.screen-and-min-width('desktop') {
-    font-size: var(--nyco-typography-desktop);
-  }
+  // @include media.screen-and-min-width('desktop') {
+  //   font-size: var(--nyco-typography-desktop);
+  // }
 }
 
 body {
