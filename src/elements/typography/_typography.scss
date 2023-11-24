@@ -65,7 +65,8 @@ h6, .h6 {
   margin-bottom: var(--nyco-typography-margin-bottom);
 
   a:not(.btn) {
-    font-weight: inherit
+    font-weight: inherit;
+    text-decoration: none;
   }
 }
 

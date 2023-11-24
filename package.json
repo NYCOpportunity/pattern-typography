@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pattern-typography",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project was scaffolded using the NYCO Patterns CLI",
   "scripts": {
     "version": "git add .",
